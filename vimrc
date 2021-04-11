@@ -54,7 +54,12 @@ nnoremap <Up> <NOP>
 nnoremap <Down> <NOP>
 nnoremap <Left> <NOP>
 nnoremap <Right> <NOP>
-inoremap <C-o> <ESC>
+inoremap <C-L> <Esc>
+
+command WQ wq
+command Wq wq
+command W w
+command Q q
 
 
 " Source a global configuration file if available
